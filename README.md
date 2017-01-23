@@ -4,7 +4,7 @@ WordPress plugin that control the thumbnail minume size
 
 ## How to add a minimum size
 
-Juste add the `thumbnail_size` in your post type registration arguments.
+Just add the `thumbnail_size` in your post type registration arguments.
 
 ### Examples : 
 
@@ -19,7 +19,7 @@ function goliath_register_post_type_args( $args, $post_type_name ){
 
         $args['thumbnail_size'] = array(
             'min'       => array( '500', '311' ),
-            'croped'    => true
+            'cropped'    => true
         );
     }
 
